@@ -1,0 +1,61 @@
+body {
+    font: 14px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: #111316;
+    background-color: #fff;
+}
+
+*::selection{
+    background: #abc4ab;
+}
+
+.page{
+    width: 980px;
+    margin: auto;
+}
+.page__header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.page__logo{
+    float: left;
+}
+.page__nav{
+    font-size: 20px;
+    float: right;
+    width: 600px;
+    text-align: right;
+}
+.page__nav a{
+    display: inline-block;
+    padding: 12px 25px;
+}
+.page__nav a:hover{
+    background-color: royalblue;
+    color: brown;
+}
+.page__header__bnr{
+    display: block;
+}
+
+
+.page__main{
+    overflow: hidden;
+    border: 1px solid #666;
+}
+.page__main__column-1{
+    float: left;
+    background-color: royalblue;
+    width: 250px;
+}
+.page__main__column-2{
+    float: right;
+    background-color: olivedrab;
+    width: 650px;
+    height: 650px;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+
